@@ -119,10 +119,10 @@ export default function HomePage() {
       <section className="bg-[#ff5a00] py-32">
         <div className="max-w-[1280px] mx-auto px-8 text-center">
           <h2 className="text-6xl md:text-7xl font-black text-black leading-tight mb-6">
-            Stop building for scraping.
+            Your site works for humans.
           </h2>
           <p className="text-3xl md:text-4xl font-bold text-black/80 mb-12">
-            Start building for structured execution.
+            It needs to work for machines.
           </p>
           <Link href="/intake" className="btn-primary-dark text-base px-12 py-5 inline-block">
             Get Started
