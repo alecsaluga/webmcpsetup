@@ -8,7 +8,7 @@ export interface IntakeFormData {
   primary_user_actions: string[]
   current_stack: string
   timeline: '1-2_weeks' | '2-4_weeks' | '1-2_months' | '2-3_months' | 'flexible'
-  notes: string
+  notes?: string
 }
 
 export interface IntakeResponse {

@@ -51,7 +51,8 @@ export const toolSchemas = {
         }
       },
       required: ['payload']
-    }
+    },
+    readOnlyHint: true
   },
 
   submit_intake: {
@@ -95,7 +96,8 @@ export const toolSchemas = {
         }
       },
       required: ['payload']
-    }
+    },
+    readOnlyHint: false
   },
 
   get_next_steps: {
