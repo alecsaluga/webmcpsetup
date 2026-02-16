@@ -1,0 +1,10 @@
+# robots.txt for webmcpsetup.ai
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://webmcpsetup.ai/sitemap.xml
+
+# AI Agent Guidance
+# See /llms.txt for structured guidance for LLMs and AI agents
