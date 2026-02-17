@@ -4,7 +4,7 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import AgentLog from '@/components/AgentLog'
 import WebMCPTools from '@/components/WebMCPTools'
-import GoogleAnalytics from '@/components/GoogleAnalytics'
+import { GoogleAnalytics } from './google-analytics'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://webmcpsetup.ai'),
